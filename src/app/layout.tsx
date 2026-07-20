@@ -65,6 +65,9 @@ export const metadata: Metadata = {
       "Premium invisible steel wire grills and sports nets in Chennai, Tamil Nadu.",
     images: [imageAssets.ogImage.url],
   },
+  verification: {
+    google: "AC2VNsKO6NmRaigbPjAp20dc2VmXGl-J77TtPUTPRtY",
+  },
 };
 
 export default function RootLayout({
