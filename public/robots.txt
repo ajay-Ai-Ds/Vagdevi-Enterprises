@@ -1,0 +1,99 @@
+# =============================================
+# Vagdevi Enterprises - robots.txt
+# https://vagdevienterprises.com
+# =============================================
+
+# ✅ Google - Allow full crawl
+User-agent: Googlebot
+Allow: /
+Disallow: /api/
+Disallow: /_next/
+Disallow: /admin/
+
+# ✅ Bing - Allow full crawl
+User-agent: Bingbot
+Allow: /
+Disallow: /api/
+Disallow: /_next/
+Disallow: /admin/
+
+# ✅ DuckDuckGo - Allow full crawl
+User-agent: DuckDuckBot
+Allow: /
+Disallow: /api/
+Disallow: /_next/
+
+# ✅ Yahoo - Allow full crawl
+User-agent: Slurp
+Allow: /
+Disallow: /api/
+Disallow: /_next/
+
+# ❌ Block OpenAI / ChatGPT scraper
+User-agent: GPTBot
+Disallow: /
+
+# ❌ Block ChatGPT browsing plugin
+User-agent: ChatGPT-User
+Disallow: /
+
+# ❌ Block Google AI training scraper
+User-agent: Google-Extended
+Disallow: /
+
+# ❌ Block Anthropic / Claude scraper
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+# ❌ Block Common Crawl (used for AI training data)
+User-agent: CCBot
+Disallow: /
+
+# ❌ Block Ahrefs (SEO spy tool)
+User-agent: AhrefsBot
+Disallow: /
+
+# ❌ Block Semrush (SEO spy tool)
+User-agent: SemrushBot
+Disallow: /
+
+# ❌ Block Majestic SEO bot
+User-agent: MJ12bot
+Disallow: /
+
+# ❌ Block OpenSite crawler
+User-agent: DotBot
+Disallow: /
+
+# ❌ Block BLEXBot scraper
+User-agent: BLEXBot
+Disallow: /
+
+# ❌ Block DataForSeo scraper
+User-agent: DataForSeoBot
+Disallow: /
+
+# ❌ Block omgili scrapers
+User-agent: omgili
+Disallow: /
+
+User-agent: omgilibot
+Disallow: /
+
+# ✅ Default: Allow all other bots with restrictions
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /_next/
+Disallow: /admin/
+Disallow: /test/
+Disallow: /temp/
+Disallow: /development/
+
+# Sitemap location
+Sitemap: https://vagdevienterprises.com/sitemap.xml
+
+
