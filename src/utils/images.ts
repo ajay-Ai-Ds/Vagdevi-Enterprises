@@ -55,6 +55,10 @@ export const imageAssets = {
     url: "/images/hero/windowgrill.webp",
     alt: "Tightly spaced pigeon control invisible grills installed on a high-rise apartment balcony in Chennai",
   },
+  serviceClothHangers: {
+    url: "/images/hero/clothhanger.png",
+    alt: "Premium stainless steel ceiling-mounted cloth drying hangers with pulley system in Chennai",
+  },
 
   // Before & After Comparisons
   beforeBalcony: {
@@ -78,6 +82,10 @@ export const imageAssets = {
   materialFraming: {
     url: "/images/hero/cricketpracticenet.jpg",
     alt: "Galvanized iron structural pipes and tension anchors for cricket net frame setup",
+  },
+  materialClothHanger: {
+    url: "/images/hero/clothhanger.png",
+    alt: "Rustproof stainless steel rods and premium nylon pulley ropes for cloth drying hangers",
   },
 
   // Team & Field Technicians

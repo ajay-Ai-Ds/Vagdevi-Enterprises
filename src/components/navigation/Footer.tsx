@@ -67,6 +67,7 @@ export default function Footer() {
                 { label: "Pigeon Invisible Grills", href: "/services/pigeon-invisible-grills" },
                 { label: "Sports Nets", href: "/services/sports-nets" },
                 { label: "Cricket Practice Nets", href: "/services/cricket-practice-nets" },
+                { label: "Ceiling Cloth Hangers", href: "/services/cloth-hangers" },
               ].map((item) => (
                 <li key={item.label}>
                   <Link

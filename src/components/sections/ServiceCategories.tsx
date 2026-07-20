@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
-import { Eye, Shield, Target, ArrowRight } from "lucide-react";
+import { Eye, Shield, Target, ArrowRight, Sun } from "lucide-react";
 import { imageAssets } from "@/utils/images";
 
 interface Category {
@@ -48,6 +48,16 @@ const categories: Category[] = [
     description: "Professional-grade indoor & outdoor cricket netting enclosures for academies, schools, and residential terrace practice turfs.",
     href: "/services/cricket-practice-nets",
   },
+  {
+    id: 4,
+    name: "Ceiling Cloth Hangers",
+    count: "1 Service Available",
+    image: imageAssets.serviceClothHangers.url,
+    alt: imageAssets.serviceClothHangers.alt,
+    icon: <Sun className="w-6 h-6 text-white" />,
+    description: "Maximize your balcony space with our premium stainless steel pulley-operated ceiling cloth drying racks.",
+    href: "/services/cloth-hangers",
+  },
 ];
 
 export default function ServiceCategories() {
@@ -68,7 +78,7 @@ export default function ServiceCategories() {
         </div>
 
         {/* Categories Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {categories.map((category, index) => (
             <motion.div
               key={category.id}

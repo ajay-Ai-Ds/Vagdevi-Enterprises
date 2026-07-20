@@ -13,7 +13,7 @@ export interface SpecItem {
 export interface ServiceDetail {
   slug: string;
   name: string;
-  category: "invisible-grills" | "sports-nets";
+  category: "invisible-grills" | "sports-nets" | "cloth-hangers";
   categoryName: string;
   title: string;
   description: string;
@@ -65,12 +65,16 @@ function generateFAQsForService(serviceName: string, category: string): FAQItem[
       question: `Can pets chew or tear through ${serviceName}?`,
       answer: category === "invisible-grills" 
         ? "SS316 steel wire invisible grills are completely bite-proof and scratch-proof, making them the ultimate safety solution for cats, dogs, and other active household pets."
+        : category === "cloth-hangers" 
+        ? "Our ceiling cloth hangers are safely mounted high on the ceiling, keeping your clothes completely out of reach from pets."
         : "For play areas and sports zones, our thick-gauge netting is highly tear-resistant and stands up well to heavy pet activity or sports use.",
     },
     {
       question: `Will ${serviceName} block my scenic view or light?`,
       answer: category === "invisible-grills"
         ? "No, invisible grills feature ultra-slim 2.0mm steel cables, making them virtually invisible from a short distance. You enjoy unobstructed views, light, and ventilation."
+        : category === "cloth-hangers"
+        ? "No, our ceiling-mounted system utilizes the unused overhead space on your balcony, keeping the floor clear and allowing maximum sunlight and breeze for fast drying."
         : "No, our sports nets are translucent or color-matched to ensure they do not obstruct fresh breeze, natural light, or views.",
     },
     {
@@ -400,6 +404,45 @@ export const servicesData: Record<string, ServiceDetail> = {
       { label: "Maintenance", value: "Zero maintenance required" },
     ],
     faqs: generateFAQsForService("Pigeon Invisible Grills", "invisible-grills"),
+  },
+  "cloth-hangers": {
+    slug: "cloth-hangers",
+    name: "Ceiling Cloth Hangers",
+    category: "cloth-hangers",
+    categoryName: "Cloth Hangers",
+    title: "Premium Ceiling Cloth Drying Hangers Chennai | Vagdevi Enterprises",
+    description: "Space-saving stainless steel pulley system ceiling cloth drying racks installed on Chennai balconies.",
+    longDescription: "Maximize your balcony space with our premium ceiling-mounted cloth hangers. Engineered with rustproof stainless steel rods and a smooth nylon pulley system, these racks allow you to easily hoist heavy wet clothes up to the ceiling where they receive maximum sunlight and ventilation, keeping your floor space completely clear.",
+    aiOverview: "Vagdevi Enterprises Ceiling Cloth Hangers are space-saving pulley systems that utilize overhead balcony space for drying clothes. Made from durable stainless steel and premium nylon ropes, they eliminate the need for bulky floor stands.",
+    image: imageAssets.serviceClothHangers.url,
+    alt: imageAssets.serviceClothHangers.alt,
+    supportingImages: [
+      imageAssets.serviceClothHangers.url,
+      imageAssets.teamGrillInstall.url,
+      imageAssets.materialClothHanger.url,
+      imageAssets.serviceClothHangers.url,
+    ],
+    gallery: [
+      imageAssets.serviceClothHangers.url,
+      imageAssets.materialClothHanger.url,
+      imageAssets.teamGrillInstall.url,
+      imageAssets.serviceClothHangers.url,
+      imageAssets.materialClothHanger.url,
+      imageAssets.serviceClothHangers.url,
+    ],
+    beforeImage: imageAssets.beforeBalcony.url,
+    afterImage: imageAssets.afterBalcony.url,
+    benefits: ["Zero Floor Space Required", "Rustproof Stainless Steel Rods", "Smooth Heavy-Duty Pulley System", "Handles Heavy Wet Blankets", "Maximizes Sunlight & Breeze", "Easy Operation for All Ages"],
+    specsTable: [
+      { label: "Material", value: "Stainless Steel Tubes & Nylon Ropes" },
+      { label: "Operation", value: "Individual Pulley Drop System" },
+      { label: "Strength (Load Capacity)", value: "Up to 5kg per rod" },
+      { label: "Durability", value: "100% Rustproof" },
+      { label: "Available Sizes", value: "3ft, 4ft, 5ft, 6ft, 8ft" },
+      { label: "Number of Rods", value: "4, 5, or 6 rod configurations" },
+      { label: "Maintenance", value: "Wipe rods occasionally" },
+    ],
+    faqs: generateFAQsForService("Ceiling Cloth Hangers", "cloth-hangers"),
   },
 };
 

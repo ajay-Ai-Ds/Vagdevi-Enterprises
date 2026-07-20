@@ -132,6 +132,13 @@ export const serviceProfiles: Record<string, ServiceProfile> = {
     coreUtility: "preventing pigeons and other urban birds from nesting on balconies and window ledges.",
     technicalSpec: "install ultra-thin, high-tension SS316 steel wires spaced tightly (2 inches). This forms a transparent barrier that blocks bird entries without obstructing views or light.",
   },
+  "cloth-hangers": {
+    slug: "cloth-hangers",
+    name: "Ceiling Cloth Hangers",
+    categoryName: "Cloth Hangers",
+    coreUtility: "optimizing balcony floor space by utilizing ceiling areas for heavy-duty cloth drying.",
+    technicalSpec: "install premium stainless steel rods connected to a smooth nylon pulley system. This allows independent raising and lowering of individual drying rods.",
+  },
 };
 
 export interface LocalizedArticle {
@@ -188,6 +195,8 @@ export function generateLocalityServiceContent(serviceSlug: string, localitySlug
   let installationDetails = "";
   if (serviceSlug.includes("grill")) {
     installationDetails = `For every ${ser.name} project in ${loc.name}, Vagdevi Enterprises adheres to strict engineering guidelines. We ${ser.technicalSpec} Our field crew begins with a precise measurement of your balcony or window frame, followed by securely drilling aluminum tracking rails into structural concrete walls. We then run individual SS316 steel wire cables through tension-lock anchors, ensuring that the wires are pre-tensioned to a load capacity of over 150kg. The result is a clean, rustproof grid that keeps your space highly secure.`;
+  } else if (serviceSlug === "cloth-hangers") {
+    installationDetails = `Our technical installation process for ${ser.name} in ${loc.name} is designed for maximum convenience and durability. We ${ser.technicalSpec} Vagdevi Enterprises technicians expertly mount the heavy-duty pulley brackets to your ceiling concrete. We then string the premium nylon ropes and attach the rustproof stainless steel rods, ensuring the entire pulley drop system operates smoothly and securely.`;
   } else {
     // sports nets, cricket nets
     installationDetails = `Our technical installation process for ${ser.name} in ${loc.name} is designed for high impact resistance. We ${ser.technicalSpec} Vagdevi Enterprises technicians assess the installation site for structural anchors and wind load forces. We mount heavy-duty steel support cables or poles, suspend the net, and apply custom tension to prevent sagging. This ensures the net remains stable during monsoon rains and absorbs heavy sports strikes without tearing or structural damage.`;
