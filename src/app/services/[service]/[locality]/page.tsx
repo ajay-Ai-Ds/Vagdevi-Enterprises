@@ -93,7 +93,7 @@ export default async function LocalityServicePage({ params }: PageProps) {
     "name": `Vagdevi Enterprises - ${serviceDetail.name} in ${localityDetail.name}`,
     "url": `https://vagdevienterprises.com/services/${service}/${locality}`,
     "telephone": "+91 80190 91366",
-    "email": "vagdevienterprises@gmail.com",
+    "email": "vagdevienterprises07@gmail.com",
     "image": serviceDetail.image,
     "priceRange": "₹₹",
     "address": {

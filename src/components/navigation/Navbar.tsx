@@ -74,9 +74,9 @@ export default function Navbar() {
               <Phone className="w-3 h-3" />
               <span>{PHONE_NUMBER}</span>
             </a>
-            <a href="mailto:vagdevienterprises@gmail.com" className="hidden sm:flex items-center gap-1.5 hover:text-accent-orange transition-colors">
+            <a href="mailto:vagdevienterprises07@gmail.com" className="hidden sm:flex items-center gap-1.5 hover:text-accent-orange transition-colors">
               <Mail className="w-3 h-3" />
-              <span>vagdevienterprises@gmail.com</span>
+              <span>vagdevienterprises07@gmail.com</span>
             </a>
           </div>
           <div className="flex items-center gap-4 text-[11px] sm:text-xs font-medium">

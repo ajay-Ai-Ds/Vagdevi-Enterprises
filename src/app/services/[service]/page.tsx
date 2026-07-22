@@ -83,7 +83,7 @@ export default async function ServiceDetailPage({ params }: PageProps) {
       "@type": "LocalBusiness",
       "name": "Vagdevi Enterprises",
       "telephone": "+91 80190 91366",
-      "email": "vagdevienterprises@gmail.com",
+      "email": "vagdevienterprises07@gmail.com",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Chennai",

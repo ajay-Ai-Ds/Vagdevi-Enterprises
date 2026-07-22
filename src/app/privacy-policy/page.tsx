@@ -112,7 +112,7 @@ export default function PrivacyPolicyPage() {
               5. Contacting Us
             </h2>
             <p>
-              If you have any questions regarding this Privacy Policy or wish to request the deletion of your submission logs, please contact us at vagdevienterprises@gmail.com or call +91 80190 91366.
+              If you have any questions regarding this Privacy Policy or wish to request the deletion of your submission logs, please contact us at vagdevienterprises07@gmail.com or call +91 80190 91366.
             </p>
           </div>
         </div>

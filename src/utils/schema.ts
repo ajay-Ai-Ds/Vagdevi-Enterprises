@@ -30,7 +30,7 @@ export function generateLocalBusinessSchema(areaName?: string) {
     "name": `Vagdevi Enterprises${areaName ? ` - ${areaName}` : ""}`,
     "url": `https://vagdevienterprises.com${areaName ? `/areas/${areaName.toLowerCase().replace(/\s+/g, "-")}` : ""}`,
     "telephone": "+91 80190 91366",
-    "email": "vagdevienterprises@gmail.com",
+    "email": "vagdevienterprises07@gmail.com",
     "image": imageAssets.ogImage.url,
     "priceRange": "₹₹",
     "address": {
@@ -181,7 +181,7 @@ export function generateServiceSchema(serviceName: string, categoryName: string,
       "@type": "LocalBusiness",
       "name": "Vagdevi Enterprises",
       "telephone": "+91 80190 91366",
-      "email": "vagdevienterprises@gmail.com",
+      "email": "vagdevienterprises07@gmail.com",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Chennai",

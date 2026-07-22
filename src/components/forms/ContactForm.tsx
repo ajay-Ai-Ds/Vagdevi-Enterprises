@@ -128,7 +128,7 @@ export default function ContactForm() {
               </a>
 
               <a
-                href="mailto:vagdevienterprises@gmail.com"
+                href="mailto:vagdevienterprises07@gmail.com"
                 className="flex items-center gap-4 bg-white p-5 rounded-2xl border border-slate-200 hover:shadow-md transition-shadow group"
               >
                 <div className="p-3 bg-blue-50 text-primary-700 rounded-xl shrink-0 group-hover:bg-primary-700 group-hover:text-white transition-colors duration-300">
@@ -139,7 +139,7 @@ export default function ContactForm() {
                     Email Support
                   </span>
                   <span className="text-base font-extrabold text-slate-800 group-hover:text-primary-700 transition-colors">
-                    vagdevienterprises@gmail.com
+                    vagdevienterprises07@gmail.com
                   </span>
                 </div>
               </a>
